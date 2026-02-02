@@ -8,10 +8,12 @@
 //string[] friends = ['piyash', 'apurbo'];
 
 
-//DYNAMIC TYPE LANGUAGE
+// JAVASCRIPF IS A DYNAMIC TYPED LANGUAGE
  
+//PRIMITIVE TYPES
 const a = 5;
 const b = 'bangladesh is a small country';
+//NON PREMITEVE TYPES
 const ages = [45, 65, 48];
 const student = {id: 23, class: 7}
 console.log(typeof a, typeof b, typeof ages, typeof student);
