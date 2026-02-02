@@ -1,4 +1,7 @@
-/*1. variable that is not initialited will give undefinde
+/*
+// WAYS TO GET UNDEFINE
+
+1. variable that is not initialited will give undefinde
 
 2. function with no return
 
@@ -17,10 +20,11 @@
 
 let first;
 
-
 function secoend(a, b){
     const total =  a + b;
 }
+
+
 
 const result = secoend();
 
@@ -28,6 +32,8 @@ function third(a, b,  c, d){
     const total = a+b+c+d;
     console.log(a, b, c, d);
 }
+
+
 
 // third(2, 5);
 
@@ -39,9 +45,27 @@ function noNegative(a, b){
     }
    return a + b;
 }
+
+
  const total = noNegative(2,-5);
-    console.log(total);
+//  console.log(total);
+   const fifth = {id: 2, name: 'sajib', age:25} 
+   console.log(fifth.age, fifth.salary);
 
 
-    const sixes = [4, 9, 25, 32, 45, 56];
-    console.log(sixes[1], sixes[4], sixes[200])
+
+
+const sixes = [4, 9, 25, 32, 45, 56];
+//you should not do it. instead use splice
+delete sixes[1];
+//  console.log(sixes[1], sixes[4], sixes[200]);
+//  console.log(sixes);
+
+const eight = undefined;
+
+const ninth = null;
+
+const data = {results: [], updated: null}
+
+// console.log(typeof undefined)
+console.log(typeof null);
